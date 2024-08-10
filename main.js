@@ -3198,7 +3198,7 @@ function main() {
             ],
             ['button', {
                     on: {
-                        click: () => window.open('https://github.com/bozokopic/opcut', '_blank')
+                        click: () => window.open('https://upwork.com/', '_blank')
                     }
                 },
                 icon('emblem-git-new'),

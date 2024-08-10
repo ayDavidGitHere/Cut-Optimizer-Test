@@ -2658,8 +2658,8 @@ const fontSizes = {
     medium: 1,
     large: 1.5
 };
-const calculateUrl = String(new URL('./calculate', window.location.href));
-const generateUrl = String(new URL('./generate', window.location.href));
+const calculateUrl = String(new URL('https://opcut.kopic.xyz/calculate', window.location.href));
+const generateUrl = String(new URL('https://opcut.kopic.xyz/generate', window.location.href));
 let panelCounter = 0;
 let itemCounter = 0;
 const defaultSettings = {

@@ -1,0 +1,15 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="application-name" content="opcut">
+    <meta name="description" content="Cutting stock problem optimizer">
+    <title>opcut</title>
+    <link rel="author" href="https://bozo.kopic.xyz">
+    <link rel="license" href="https://www.gnu.org/licenses/gpl-3.0.html">
+    <link rel="help" href="https://github.com/bozokopic/opcut">
+    <link rel="stylesheet" href="style/main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+
+
+<div class="main"><div class="left-panel"><div class="header"><span class="title">OPCUT</span><button><img class="icon" src="icons/applications-other.svg"> Settings</button><button><img class="icon" src="icons/emblem-git-new.svg"> Source code</button></div><div class="form"><label class="label">Method</label><select><option value="forward_greedy">Forward greedy</option><option value="greedy">Greedy</option><option value="forward_greedy_native">Forward greedy (native)</option><option value="greedy_native">Greedy (native)</option></select><label class="label">Cut width</label><input type="number"><label class="label"></label><label><input type="checkbox"> Minimize initial panel usage</label></div><div class="content"><div><table><thead><tr><th class="col-quantity">Quantity</th><th class="col-height">Height</th><th class="col-width">Width</th><th class="col-name">Panel name</th><th class="col-delete"></th></tr></thead><tbody></tbody><tfoot><tr><td colspan="5"><div><button><img class="icon" src="icons/list-add.svg"> Add panel</button><span class="spacer"></span><button><img class="icon" src="icons/document-import.svg"> CSV import</button><button><img class="icon" src="icons/document-export.svg"> CSV export</button></div></td></tr></tfoot></table></div><div><table><thead><tr><th class="col-quantity">Quantity</th><th class="col-height">Height</th><th class="col-width">Width</th><th class="col-name">Item name</th><th class="col-rotate">Rotate</th><th class="col-delete"></th></tr></thead><tbody></tbody><tfoot><tr><td colspan="6"><div><button><img class="icon" src="icons/list-add.svg"> Add item</button><span class="spacer"></span><button><img class="icon" src="icons/document-import.svg"> CSV import</button><button><img class="icon" src="icons/document-export.svg"> CSV export</button></div></td></tr></tfoot></table></div></div><button class="calculate"><img class="icon" src="icons/system-run.svg"> Calculate</button></div><div class="panel-resizer"></div><div class="center-panel"></div><div class="panel-resizer"></div><div class="right-panel"></div></div></body></html>
